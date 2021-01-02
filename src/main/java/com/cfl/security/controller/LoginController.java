@@ -19,4 +19,14 @@ public class LoginController {
     public String loginSuccess () {
         return "登录成功";
     }
+
+    @RequestMapping(value = "/r/r1",produces = {"text/plain;charset=UTF-8"})
+    public String r1 () {
+        return "r1 资源";
+    }
+
+    @RequestMapping(value = "/r/r2",produces = {"text/plain;charset=UTF-8"})
+    public String r2 () {
+        return "r2 资源";
+    }
 }
